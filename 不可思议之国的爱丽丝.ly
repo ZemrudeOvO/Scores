@@ -21,7 +21,7 @@ euphonium = \relative c {
 
     \tempo 4=140
     \repeat volta 2 {
-        \acciaccatura c'8 d4. c2 r8
+        \acciaccatura c'8 d4. c8~ c2
         \acciaccatura f,8 g8. f g8 c,8. d ees8
         \acciaccatura c'8 d4. ees8 c2~
         c \acciaccatura c8 d8. ees f8
@@ -49,8 +49,8 @@ euphonium = \relative c {
             \break
         }
         {
-            \acciaccatura ees8 f4. g8 ees2~
-            ees r4 d16 ees f8
+            \acciaccatura ees'8 f4. g8 ees2~
+            ees r4 d,16 ees f8
         }
     }
 
@@ -140,7 +140,7 @@ euphonium = \relative c {
     \new Staff \with {
         instrumentName = "Euphonium"
         midiInstrument = "trombone"
-    } { \clef bass \euphonium }
+    } { \clef bass \transpose c g, \euphonium }
     \layout { }
     \midi {
         \tempo 4=140
