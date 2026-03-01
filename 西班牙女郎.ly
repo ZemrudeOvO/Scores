@@ -15,7 +15,7 @@ global = {
     \time 3/4
 }
 
-euphonium = \relative c {
+euphonium = \relative c' {
     \global
     \compressEmptyMeasures {
         R2.*20
