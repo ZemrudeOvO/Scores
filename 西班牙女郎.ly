@@ -103,7 +103,7 @@ euphonium = \relative c' {
     \break
 
     c bes a
-    c <<{\voiceOne \stemDown e(_\fermata f)_\fermata}\\{\voiceTwo \stemUp \magnifyMusic0.8 {\parenthesize g(} f)}>>
+    c <<{\voiceOne \stemDown e(_\fermata f)_\fermata}\\{\voiceTwo \stemUp \magnifyMusic 0.8 {\parenthesize g(} f)}>>
     \stemNeutral f2.~ f~ f4 r r \bar "|."
 }
 
